@@ -1,3 +1,3 @@
 #!/bin/bash  
 source ~/tensorflow/bin/activate
-hello42.py
+python hello42.py
