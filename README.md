@@ -13,7 +13,7 @@ https://github.com/hpssjellis/easy-tensorflow-on-cloud9.git
 
 In the terminal type
 
-bash mysetup.sh
+bash setup.sh
 
 then hopefully try some examples
 
