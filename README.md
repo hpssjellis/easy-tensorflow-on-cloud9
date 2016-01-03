@@ -16,6 +16,22 @@ In the terminal type:
 bash setup.sh
 ```
 
+OR JUST RIGHT CLICK AND SELECT RUN ON THE FILE setup.sh 
+
+Note: Any of these examples can be run by just right clicking on the files and selecting run.
+
+All files with the file name starting with rocksetta and ending with .sh should be able to be run this way.
+
+
+.
+
+.
+
+
+.
+
+
+
 Then hopefully try some examples in the rocksetta-example folder 
 
 My TensorFlow API diagram is at http://rocksetta.com/tensorflow-teacher/tensorflow-svg.html which is a clickable version of
