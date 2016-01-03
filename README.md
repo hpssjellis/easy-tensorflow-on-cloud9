@@ -4,16 +4,16 @@ Hopefully the easiest way to get started with Google's TensorFlow Deep Learning 
 
 
 
-install onto cloud9 http://c9.io
+install onto cloud9 http://c9.io as a custom workspace
 
-Using this github 
+Using the url for this repository 
 
-url https://github.com/hpssjellis/easy-tensorflow-on-cloud9.git
+https://github.com/hpssjellis/easy-tensorflow-on-cloud9.git
 
 
 In the terminal type
 
 bash mysetup.sh
 
-then hopwfully try some examples
+then hopefully try some examples
 
