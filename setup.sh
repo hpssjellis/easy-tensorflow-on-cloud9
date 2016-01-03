@@ -7,7 +7,7 @@
 echo "First checking the Python version"
 python --version
 
-echo"--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
 echo ". "
 
 
@@ -15,7 +15,7 @@ echo "Now checking is pip is installed"
 
 pip list
 
-echo"--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
 echo ". "
 
 
@@ -23,7 +23,7 @@ echo "next list this directory"
 pwd
 ls -lah  
 
-echo"--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
 echo "Some other useful commands are cd     cd ..      dir    ls     pwd     "
 echo "."
 
