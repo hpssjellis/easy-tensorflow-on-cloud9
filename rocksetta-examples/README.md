@@ -1,10 +1,12 @@
-first try the program heelo42.py by getting into this directory by typing
+First try the program hello42.py by getting into this directory from anywhere by typing in a terminal
 
 ``` bash
-cd \rocksetta-examples
+cd /home/ubuntu/workspace/rocksetta-examples/
 ```
 
-remember to use the tab key as it auto-completes.
+remember to use the tab key as it auto-completes. using cd and ls commands you can move around the workspace 
+note: cd .. goes up a directory
+
 
 Then try the examples in this order
 
