@@ -1,5 +1,5 @@
 #!/bin/bash  
-source ~/tensorflow/bin/activate
+source ~/virtual-tf/bin/activate
 tensorboard --logdir=/home/ubuntu/workspace/tmp5 --host $IP --port $PORT
 
 
