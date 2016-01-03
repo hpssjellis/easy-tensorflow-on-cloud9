@@ -1,3 +1,3 @@
 #!/bin/bash  
-source ~/tensorflow/bin/activate
+source ~/virtual-tf/bin/activate
 python hello42.py
