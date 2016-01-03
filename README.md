@@ -79,3 +79,28 @@ deactivate
 to get your cursor back
 
 I include this code in each of my .sh files but you could run the code in the command line and call the files normally.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+to find tensorflow
+
+
+
+cd /usr/local/lib/python2.7/site-packages/tensorflow
+
+
