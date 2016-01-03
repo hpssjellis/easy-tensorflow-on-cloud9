@@ -59,4 +59,23 @@ twitter @rocksetta
 
 
 
+Side note:
 
+
+using 
+
+``` bash
+source ~/tensorflow/bin/activate
+```
+
+sets up the environment
+
+note just type 
+
+``` bash
+deactivate
+```
+
+to get your cursor back
+
+I include this code in each of my .sh files but you could run the code in the command line and call the files normally.
