@@ -11,13 +11,14 @@ Using the url for this repository
 https://github.com/hpssjellis/easy-tensorflow-on-cloud9.git
 
 
-In the terminal type
-
+#In the terminal type
 bash setup.sh
 
 Then hopefully try some examples in the rocksetta-example folder 
 
-My TensorFlow API diagram is at http://rocksetta.com/tensorflow-teacher/tensorflow-svg.html
+My TensorFlow API diagram is at http://rocksetta.com/tensorflow-teacher/tensorflow-svg.html which is a clickable version of
+
+![](rocksetta-examples/tensorflow-teacher.png)
 
 My Tensorflow-teacher site is at http://rocksetta.com/tensorflow-teacher/
 
