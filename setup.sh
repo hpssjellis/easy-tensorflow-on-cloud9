@@ -39,14 +39,14 @@ echo ". "
 
 echo "make the tensorflow environment"
 
-virtualenv --system-site-packages ~/tensorflow
+virtualenv --system-site-packages ~/virtual-tf
 
 echo "--------------------------------------------------------------"
 echo ". "
 
 
 echo "Activate the environemtn use deactivate to get your cursor back"
-source ~/tensorflow/bin/activate 
+source ~/virtual-tf/bin/activate 
 
 
 echo "--------------------------------------------------------------"
@@ -70,14 +70,19 @@ git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 echo "--------------------------------------------------------------"
 echo ". "
 
-echo "Now how to setup tensorBoard????"
+
 
 
 echo "--------------------------------------------------------------"
 echo ". "
 
 echo "--------------------------------------------------------------"
-echo ". You can close this window by clicking the close x"
+echo "You can close this window by clicking the close x"
+echo "Right click rocksetta files and select run "
+echo "you can also run them manually by entering the virtual environment"
+echo "source ~/virtual-tf/bin/activate "
+echo "Then bash rocksetta????.sh"
+echo "deactivate    to get out of the virtual enviroment"
 
 
 
