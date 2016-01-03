@@ -15,5 +15,18 @@ In the terminal type
 
 bash setup.sh
 
-then hopefully try some examples
+Then hopefully try some examples in the rocksetta-example folder 
+
+My TensorFlow API diagram is at http://rocksetta.com/tensorflow-teacher/tensorflow-svg.html
+
+My Tensorflow-teacher site is at http://rocksetta.com/tensorflow-teacher/
+
+
+
+
+other peoples examples are in the other folders. A good starting point is the try-tf folder explained at this website
+
+https://bcomposes.wordpress.com/2015/11/26/simple-end-to-end-tensorflow-examples/
+
+
 
