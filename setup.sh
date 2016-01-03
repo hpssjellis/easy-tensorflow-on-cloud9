@@ -59,3 +59,22 @@ pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensor
 echo "--------------------------------------------------------------"
 echo ". "
 
+echo "Unfortunately on cloud 9 Pip hides the TensorFlow folder so lets clone it for our use"
+echo "Kind of wasteful but it isn't on our computer anyway"
+
+deactivate
+
+git clone --recurse-submodules https://github.com/tensorflow/tensorflow
+
+
+echo "--------------------------------------------------------------"
+echo ". "
+
+echo "Now how to setup tensorBoard????"
+
+
+echo "--------------------------------------------------------------"
+echo ". "
+
+echo "--------------------------------------------------------------"
+echo ". "
