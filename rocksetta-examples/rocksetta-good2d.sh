@@ -1,5 +1,5 @@
 #!/bin/bash  
-source ~/tensorflow/bin/activate
+source ~/virtual-tf/bin/activate
 python good2d.py
 
 
