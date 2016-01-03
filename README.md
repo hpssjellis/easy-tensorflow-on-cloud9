@@ -27,9 +27,20 @@ My Tensorflow-teacher site is at http://rocksetta.com/tensorflow-teacher/
 
 
 
-other peoples examples are in the other folders. A good starting point is the try-tf folder explained at this website
+Other peoples examples are in the other folders. 
+
+A good starting point is the try-tf folder explained at this website
 
 https://bcomposes.wordpress.com/2015/11/26/simple-end-to-end-tensorflow-examples/
+
+
+
+
+
+By Jeremy Ellis Maker of rocksetta.com 
+
+twitter @rocksetta
+
 
 
 
