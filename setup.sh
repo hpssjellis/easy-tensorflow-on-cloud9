@@ -30,10 +30,32 @@ echo "."
 
 
 
-echo "Now installing TensorFlow"
+echo "Installing PIP and Virtual Environment"
 
-sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.6.0-cp27-none-linux_x86_64.whl
+sudo apt-get install python-pip python-dev python-virtualenv
 
-
-echo"--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
 echo ". "
+
+echo "make the tensorflow environment"
+
+virtualenv --system-site-packages ~/tensorflow
+
+echo "--------------------------------------------------------------"
+echo ". "
+
+
+echo "Activate the environemtn use deactivate to get your cursor back"
+source ~/tensorflow/bin/activate 
+
+
+echo "--------------------------------------------------------------"
+echo ". "
+
+echo "Now intall tensorFlow into the enviroment"
+
+pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.5.0-cp27-none-linux_x86_64.whl
+
+echo "--------------------------------------------------------------"
+echo ". "
+
