@@ -11,8 +11,10 @@ Using the url for this repository
 https://github.com/hpssjellis/easy-tensorflow-on-cloud9.git
 
 
-#In the terminal type
+In the terminal type:
+``` bash
 bash setup.sh
+```
 
 Then hopefully try some examples in the rocksetta-example folder 
 
