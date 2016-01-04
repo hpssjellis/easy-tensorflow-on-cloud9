@@ -23,13 +23,29 @@ Note: Any of these examples can be run by just right clicking on the files and s
 All files with the file name starting with rocksetta and ending with .sh should be able to be run this way.
 
 
-.
+If you have never used cloud9 it may look hard but compared to making your own linux server, cloud 9 is a breeze:
+
+1. register for a free account
+1. click on the big plus sign to make a new workspace
+
 
 ![](rocksetta-examples/new-workspace.png)
 
+1. Fill out the forms as needed, the main fields are the URL for this repository (make sure it has .git at the end
+https://github.com/hpssjellis/easy-tensorflow-on-cloud9.git) 
+
+1. Make sure the default custom box is selected
 
 ![](rocksetta-examples/cloud9-tf.png)
 
+1. Then just right click and run setup.sh and take a break for about 10 minutes
+
+
+.
+
+.
+
+.
 
 
 Then hopefully try some examples in the rocksetta-example folder 
