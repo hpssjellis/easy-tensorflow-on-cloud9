@@ -1,0 +1,23 @@
+right click on rocksetta???.sh files and select run to see examples working
+
+You can always run any of the python files the normal way by openning a terminal and entering
+
+source ~/virtual-tf/bin/activate
+
+
+then enter
+python filename.py
+
+reminder to type deactivate to stop running the virtual environment
+
+A few extra reminders
+
+type a few letters of a file and click the tab key to autocomplete
+cd .. goes up a lvel
+cd foldername goes into the folder
+
+ls or dir list a folders files
+
+the rocksetta bash files can also be run this way by typing
+bash rocksetta??.sh
+
