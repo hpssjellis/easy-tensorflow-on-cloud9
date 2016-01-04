@@ -21,3 +21,12 @@ ls or dir list a folders files
 the rocksetta bash files can also be run this way by typing
 bash rocksetta??.sh
 
+
+
+
+NOTE: The above manual method presently will have to be used for true TensorFlow examples as I have not made rocksetta files for those yet.
+
+Note with the tensoerflow examples you may have to change the /tmp file path so that the examples work with tensorboard. I use this file path, since thenormal /tmp is invisible to the easy cloud9 directory structure (still works using the manual method)
+
+/home/ubuntu/workspace/tmp5
+
