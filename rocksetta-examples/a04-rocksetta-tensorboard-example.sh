@@ -9,9 +9,13 @@ echo "running tensorboard from the pip folders"
 echo ""
 echo ""
 
-python tensorboard-example.py
+
 
 tensorboard --logdir=/home/ubuntu/workspace/tmp5 --host $IP --port $PORT
+
+
+python tensorboard-example.py
+
 
 echo "On cloud9 run the menu item preview-->preview running application "
 echo "To see the tensorBoard website"
