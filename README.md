@@ -81,7 +81,7 @@ Side note:
 using 
 
 ``` bash
-source ~/tensorflow/bin/activate
+source ~/virtual-tf/bin/activate
 ```
 
 sets up the environment
