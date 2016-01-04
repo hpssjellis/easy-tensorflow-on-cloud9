@@ -25,10 +25,10 @@ All files with the file name starting with rocksetta and ending with .sh should 
 
 .
 
-.
+![](rocksetta-examples/new-workspace.png)
 
 
-.
+![](rocksetta-examples/cloud9-tf.png)
 
 
 
