@@ -4,3 +4,5 @@ by Aymeric Damien
 I have condensed the files into one example folder
 
 https://github.com/aymericdamien/TensorFlow-Examples
+
+.
