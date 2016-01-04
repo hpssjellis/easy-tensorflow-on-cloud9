@@ -9,7 +9,7 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 
 # Import MINST data
 import input_data
-mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
+mnist = input_data.read_data_sets("/home/ubuntu/workspace/tmp5/data/", one_hot=True)
 
 import tensorflow as tf
 

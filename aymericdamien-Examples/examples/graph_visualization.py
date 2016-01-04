@@ -11,7 +11,7 @@ import numpy
 
 # Import MINST data
 import input_data
-mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
+mnist = input_data.read_data_sets("/home/ubuntu/workspace/tmp5/data/", one_hot=True)
 
 # Use Logistic Regression from our previous example
 
@@ -46,7 +46,7 @@ with tf.Session() as sess:
     sess.run(init)
 
     # Set logs writer into folder /tmp/tensorflow_logs
-    summary_writer = tf.train.SummaryWriter('/tmp/tensorflow_logs', graph_def=sess.graph_def)
+    summary_writer = tf.train.SummaryWriter('/home/ubuntu/workspace/tmp5/tensorflow_logs', graph_def=sess.graph_def)
 
     # Training cycle
     for epoch in range(training_epochs):
@@ -72,7 +72,7 @@ with tf.Session() as sess:
     print "Accuracy:", accuracy.eval({x: mnist.test.images, y: mnist.test.labels})
 
 '''
-Run the command line: tensorboard --logdir=/tmp/tensorflow_logs
+Run the command line: tensorboard --logdir=/home/ubuntu/workspace/tmp5/tensorflow_logs
 Open http://localhost:6006/ into your web browser
 '''
 
