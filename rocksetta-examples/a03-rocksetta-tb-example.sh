@@ -5,13 +5,13 @@ source ~/virtual-tf/bin/activate
 
 
 
-echo "running tensorboard from the pip folders"
+echo "running tb-example.py from the rocksetta-examples folder. "
+echo "You need to also run a04-rocksetta-tensorboard.sh with this program!"
 echo ""
-echo ""
 
 
 
-tensorboard --logdir=/home/ubuntu/workspace/tmp5 --host $IP --port $PORT
+tb-example.py
 
 
 
