@@ -30,3 +30,7 @@ Note with the tensoerflow examples you may have to change the /tmp file path so 
 
 /home/ubuntu/workspace/tmp5
 
+
+
+
+P.S. always close of your run windows as some of them may have processes still running that then stops new processes from running.
