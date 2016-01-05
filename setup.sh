@@ -83,6 +83,12 @@ echo "you can also run them manually by entering the virtual environment"
 echo "source ~/virtual-tf/bin/activate "
 echo "Then bash rocksetta????.sh"
 echo "deactivate    to get out of the virtual enviroment"
+echo "-----------------------------------------"
+echo ""
+echo "If you have made it this far the installation has finished"
+echo "SETUP.SH HAS FINISHED INSTALLING. You can close this terminal window by clicking the x"
+echo "-----------------------------------------"
+echo ""
 
 
 
