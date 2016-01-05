@@ -11,7 +11,7 @@ echo ""
 
 
 
-python tb-example.py
+python tb-normal.py
 
 
 
