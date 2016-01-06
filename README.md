@@ -2,6 +2,15 @@
 Hopefully the easiest way to get started with Google's TensorFlow Deep Learning Neural Network Python Library
 
 
+Step by step youtube vide at 
+
+https://youtu.be/kMtrOIPLpR0
+
+
+and my TensorFlow Teacher webpagge is at
+
+http://rocksetta.com/tensorflow-teacher/
+
 
 
 install onto cloud9 http://c9.io as a custom workspace
