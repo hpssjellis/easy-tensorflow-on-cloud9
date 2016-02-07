@@ -1,0 +1,9 @@
+ipython notebook --ip=process.env.IP --port=process.env.PORT --no-browser
+
+
+ipython notebook --ip=0.0.0.0 --port=8888 --no-browser
+
+
+ipython notebook --ip=0.0.0.0 --port=8080
+
+
