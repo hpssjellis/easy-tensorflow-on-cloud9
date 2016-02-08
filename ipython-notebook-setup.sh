@@ -22,12 +22,4 @@ source activate myPy27
 
 
 
-#pip freeze
-
-conda install ipython-notebook
-
-
-ipython notebook --ip=0.0.0.0 --port=8080 --no-browser
-
-
-echo "http:\\$C9_HOSTNAME"
+echo "run the second bash file next "
