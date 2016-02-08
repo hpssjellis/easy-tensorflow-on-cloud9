@@ -3,7 +3,7 @@
 
 #  only need to run this script with the command (do not type the #)
 #  bash ipython-01-notebook-setup.sh
-
+source activate myPy27
 
 
 conda install ipython-notebook
