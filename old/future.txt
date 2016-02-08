@@ -1,3 +1,7 @@
+pip install jupyter
+works but can't find path since double tensorFlow
+
+
 
 
 http://www.motleytech.net/en/2015/11/08/jupyter-python-27-and-35/
