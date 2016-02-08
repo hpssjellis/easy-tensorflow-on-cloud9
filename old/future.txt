@@ -4,6 +4,38 @@ works but can't find path since double tensorFlow
 
 
 
+
+
+
+
+
+
+PYTHONUSERBASE=/opt/mysterypackage-1.0/python-deps pip install --user --upgrade numpy scipy
+..to install the scipy and numpy package most recent versions into a directory which you can then include in your PYTHONPATH like so (using bash and for python 2.6 on CentOS 6 for this example):
+
+export PYTHONPATH=/opt/mysterypackage-1.0/python-deps/lib64/python2.6/site-packages:$PYTHONPATH
+export PATH=/opt/mysterypackage-1.0/python-deps/bin:$PATH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 http://www.motleytech.net/en/2015/11/08/jupyter-python-27-and-35/
 
 source env.sh
