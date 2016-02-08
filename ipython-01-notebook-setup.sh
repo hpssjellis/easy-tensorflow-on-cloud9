@@ -1,7 +1,7 @@
 #!/bin/bash  
 
 #  only need to run this script with the command (do not type the #)
-#  bash ipython-notebook-setup.sh
+#  bash ipython-01-notebook-setup.sh
 
 
 wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
