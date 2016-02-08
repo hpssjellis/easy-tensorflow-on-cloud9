@@ -1,4 +1,54 @@
 
+
+http://www.motleytech.net/en/2015/11/08/jupyter-python-27-and-35/
+
+source env.sh
+pip install jupyter
+We will now configure ipython and jupyter to our liking...
+
+# create the ipython_config folder contents
+ipython locate
+
+# create a new config that we will edit soon
+jupyter notebook --generate-config
+We will configure the ip address, port, enable mathjax and password protect our jupyter notebook.
+
+Open jupyter_config/jupyter_notebook_config.py in an editor
+
+vim jupyter_config/jupyter_notebook_config.py
+and edit the following fields... (to generate a new password hash, run ipython and type in from notebook.auth import passwd; passwd(). Enter your new password twice and copy the resulting hash to the c.NotebookApp.password field.)
+
+# The IP address the notebook server will listen on.
+c.NotebookApp.ip = '0.0.0.0'
+
+# The port the notebook server will listen on.
+c.NotebookApp.port = 8008
+
+# The directory to use for notebooks and kernels.
+c.NotebookApp.notebook_dir = 'books'
+
+# When disabled, equations etc. will appear as their untransformed TeX source.
+c.NotebookApp.enable_mathjax = True
+
+# To generate, type in a python/IPython shell:
+# 
+#   from notebook.auth import passwd; passwd()
+# 
+# The string should be of the form type:salt:hashed-password.
+c.NotebookApp.password = u'sha1:db4b151b2368:bc24e9d50c456b9c22131d53f009ab3c26a0bb9a'
+
+
+
+
+
+
+
+
+
+
+
+
+
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 chmod a+x Miniconda3-latest-Linux-x86_64.sh
