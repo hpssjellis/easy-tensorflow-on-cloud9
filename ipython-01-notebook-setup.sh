@@ -22,4 +22,20 @@ source activate myPy27
 
 
 
-echo "run the second bash file next "
+
+export IPYTHON_HOME=/home/ubuntu/miniconda2
+export PATH=$PATH:$IPYTHON_HOME/bin
+
+
+
+
+
+
+conda install ipython-notebook
+
+
+ipython notebook --ip=0.0.0.0 --port=8080 --no-browser
+
+echo "YOu can load the browser by clicking on the following and select open"
+echo "http:\\$C9_HOSTNAME:8080/tree"
+
