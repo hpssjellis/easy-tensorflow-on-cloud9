@@ -7,10 +7,7 @@ Feb 7, 2016 Updated after the video
 Added bash file ipython-01-notebook-setup.sh and ipython-02-notebook-setup.sh which automate setting up ipython notebook.
 
 Note: Really good video course offered by udacity for Googles Tensorflow at 
-https://www.udacity.com//course/viewer#!/c-ud730/l-6370362152/m-6379811815
 
-
-Awesome little online tensorFlow IDE at https://www.udacity.com//course/viewer#!/c-ud730/l-6370362152/e-6381562149/m-6377111865
 
 
 
