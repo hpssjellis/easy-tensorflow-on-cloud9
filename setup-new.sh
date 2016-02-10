@@ -1,7 +1,7 @@
 #!/bin/bash  
 
 #  only need to run this script with the command (do not type the #)
-#  bash setup.sh
+#  bash setup-new.sh
 
 
 echo "First checking the Python version"
@@ -85,6 +85,7 @@ pip install matplotlib
 
 
 printf "\n\nsource ~/virtual-tf/bin/activate " >> ~/.profile
+printf "\n\necho 'enter deactivate to exit virutal environment' " >> ~/.profile
 
 
 
