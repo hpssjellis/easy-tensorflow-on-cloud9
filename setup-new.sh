@@ -83,7 +83,7 @@ pip install scipy
 pip install matplotlib
 
 
-git clone https://github.com/tensorflow/skflow.git
+pip install git+git://github.com/tensorflow/skflow.git
 
 
 printf "\n\nsource ~/virtual-tf/bin/activate " >> ~/.profile
