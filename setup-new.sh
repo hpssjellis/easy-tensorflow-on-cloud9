@@ -73,9 +73,10 @@ echo ". "
 
 echo "Installing a few extra packages"
 
-pip install ipython
 
-pip install jupyter
+
+pip install --upgrade ipython
+pip install --upgrade jupyter
 
 
 pip install scipy
@@ -112,8 +113,16 @@ echo "SETUP.SH HAS FINISHED INSTALLING. You can close this terminal window by cl
 echo "-----------------------------------------"
 echo ""
 
-echo "running jupyter notebook"
+
+
+
+
+
 jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
+
+
+
+echo "deactivate    to get out of the virtual enviroment"
 echo "click the link and open the browser, then find"
 echo "tensorflow/tensorflow/examples/udacity/"
 
