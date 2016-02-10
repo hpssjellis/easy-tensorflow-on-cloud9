@@ -83,6 +83,8 @@ pip install scipy
 pip install matplotlib
 
 
+git clone https://github.com/tensorflow/skflow.git
+
 
 printf "\n\nsource ~/virtual-tf/bin/activate " >> ~/.profile
 printf "\n\necho 'enter deactivate to exit virutal environment' " >> ~/.profile
