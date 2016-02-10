@@ -80,6 +80,8 @@ pip install --upgrade jupyter
 
 pip install scipy
 
+pip --upgrade numpy
+
 pip install matplotlib
 
 
