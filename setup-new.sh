@@ -110,8 +110,10 @@ echo "SETUP.SH HAS FINISHED INSTALLING. You can close this terminal window by cl
 echo "-----------------------------------------"
 echo ""
 
-
-
+echo "running jupyter notebook"
+jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
+echo "click the link and open the browser, then find"
+echo "tensorflow/tensorflow/examples/udacity/"
 
 
 
