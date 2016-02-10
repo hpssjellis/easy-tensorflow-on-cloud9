@@ -69,7 +69,7 @@ echo ". "
 echo "Unfortunately on cloud 9 Pip hides the TensorFlow folder so lets clone it for our use"
 echo "Kind of wasteful but it isn't on our computer anyway"
 
-deactivate
+#deactivate
 
 git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 
@@ -82,14 +82,6 @@ echo "Installing a few extra packages"
 
 
 
-pip install --upgrade ipython
-pip install --upgrade jupyter
-
-
-pip install scipy
-
-pip --upgrade numpy
-
 pip install matplotlib
 
 
@@ -97,45 +89,39 @@ pip install git+git://github.com/tensorflow/skflow.git
 
 
 
+echo "------------------------Tensorflow installed--------------------------------------"
+echo "--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
+echo "--------------------------------------------------------------"
 
+echo ". "
 
+#echo "Unfortunately on cloud 9 Pip hides the TensorFlow folder so lets clone it for our use"
+#echo "Kind of wasteful but it isn't on our computer anyway"
 
-printf "\n\nsource ~/virtual-tf/bin/activate " >> ~/.profile
-printf "\n\necho 'enter deactivate to exit virutal environment' " >> ~/.profile
+#deactivate
 
-
-
+git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 
 
 echo "--------------------------------------------------------------"
 echo ". "
 
-echo "--------------------------------------------------------------"
-echo "You can close this window by clicking the close x"
-echo "Right click rocksetta files and select run "
-echo "you can also run them manually by entering the virtual environment"
-echo "source ~/virtual-tf/bin/activate "
-echo "Then bash rocksetta????.sh"
-echo "deactivate    to get out of the virtual enviroment"
-echo "-----------------------------------------"
-echo ""
-echo "If you have made it this far the installation has finished"
-echo "SETUP.SH HAS FINISHED INSTALLING. You can close this terminal window by clicking the x"
-echo "-----------------------------------------"
-echo ""
 
-
-
-
-
+pip install --upgrade ipython
+pip install --upgrade jupyter
 
 jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
 
 
 
 echo "deactivate    to get out of the virtual enviroment"
-echo "click the link and open the browser, then find"
-echo "tensorflow/tensorflow/examples/udacity/"
+
+
+
 
 
 
