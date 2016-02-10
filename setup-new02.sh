@@ -123,7 +123,7 @@ printf "\necho 'enter   deactivate    to get out of the virtual enviroment' " >>
 
 
 
-ls -s /home/ubuntu/workspace/tensorflow/tensorflow/examples/udacity /home/ubuntu/workspace/udacityLink
+ln -s /home/ubuntu/workspace/tensorflow/tensorflow/examples/udacity /home/ubuntu/workspace/udacityLink
 
 
 
