@@ -73,9 +73,9 @@ echo ". "
 
 echo "Installing a few extra packages"
 
-pip install --upgrade ipython
+pip install ipython
 
-pip install --upgrade jupyter
+pip install jupyter
 
 
 pip install scipy
