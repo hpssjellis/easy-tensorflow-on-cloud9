@@ -131,8 +131,8 @@ pip install --upgrade jupyter
 
 
 
-jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
-
+#jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
+jupyter notebook --ip $IP --port $PORT --no-browser
 
 # bash file stays here so no more commands will work
 
