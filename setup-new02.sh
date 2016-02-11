@@ -110,6 +110,15 @@ echo ". "
 
 git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 
+echo "Make a quick link to udacity files" 
+
+ln -s /home/ubuntu/workspace/tensorflow/tensorflow/examples/udacity /home/ubuntu/workspace/udacityLink
+
+
+
+echo "enter   deactivate    to get out of the virtual enviroment"
+
+
 
 echo "--------------------------------------------------------------"
 echo ". "
@@ -118,20 +127,15 @@ echo ". "
 pip install --upgrade ipython
 pip install --upgrade jupyter
 
+
+
+
+
 jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
 
 
+# bash file stays here so no more commands will work
 
-printf "\n\nsource ~/virtual-tf/bin/activate " >>~/.profile
-printf "\necho 'enter   deactivate    to get out of the virtual enviroment' " >>~/.profile
-
-
-
-ln -s /home/ubuntu/workspace/tensorflow/tensorflow/examples/udacity /home/ubuntu/workspace/udacityLink
-
-
-
-echo "enter   deactivate    to get out of the virtual enviroment"
 
 
 
