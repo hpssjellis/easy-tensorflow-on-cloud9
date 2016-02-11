@@ -7,4 +7,4 @@
 
 
 echo "http://0.0.0.0:8080/"
-echo "Click this windoe, Then click the link above this line, Then open"
+echo "Click this window, Then click the link above this line, then click open"
