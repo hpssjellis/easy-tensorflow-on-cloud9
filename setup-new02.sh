@@ -48,6 +48,9 @@ echo ". "
 echo "Activate the environemtn use deactivate to get your cursor back"
 source ~/virtual-tf/bin/activate 
 
+printf "\n\nsource ~/virtual-tf/bin/activate "  >> ~/.profile
+printf "\necho 'enter   deactivate    to get out of the virtual enviroment'"  >> ~/.profile
+
 
 echo "--------------------------------------------------------------"
 echo ". "
