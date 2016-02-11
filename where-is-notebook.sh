@@ -6,5 +6,7 @@
 
 
 
+echo "Click this window, Then click the link bon the last line, then click open"
+echo "If the notwbook is not running then right click run or bash reload-jupyter-notbook.sh"
+
 echo "http://0.0.0.0:8080/"
-echo "Click this window, Then click the link above this line, then click open"
