@@ -84,6 +84,7 @@ echo "Installing a few extra packages"
 
 pip install matplotlib
 
+pip install scikit-learn
 
 pip install git+git://github.com/tensorflow/skflow.git
 
