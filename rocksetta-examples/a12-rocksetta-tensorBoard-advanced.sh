@@ -9,7 +9,10 @@ echo "running tensorboard from the pip folders"
 echo ""
 echo ""
 
-tensorboard --logdir=/tmp --host $IP --port $PORT
+#tensorboard --logdir=/tmp --host $IP --port $PORT
+
+#since $PORT 8080 is now taken by jupyter notebook can use   8082
+tensorboard --logdir=/home/ubuntu/workspace/tmp5 --host $IP --port=8082
 
 echo "On cloud9 run the menu item preview-->preview running application "
 echo "To see the tensorBoard website"
