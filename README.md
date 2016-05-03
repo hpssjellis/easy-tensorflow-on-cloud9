@@ -7,15 +7,21 @@ Feb 7, 2016 Updated after the video
 Added bash file setup-new02.sh which automates setting up ipython notebook (now called jupyter).
 
 
-.
 
-.
 
-.
 
-Step by step youtube vide at 
 
-https://youtu.be/kMtrOIPLpR0
+Installation Video at https://youtu.be/kMtrOIPLpR0
+
+
+
+
+
+[![Instructional video at]
+(http://img.youtube.com/vi/kMtrOIPLpR0/0.jpg)]
+(https://youtu.be/kMtrOIPLpR0)
+
+
 
 
 and my TensorFlow Teacher webpagge is at
